@@ -7,7 +7,7 @@ const server = fastify();
 await server.register(cors, {
   // put your options here
   methods: ["GET"],
-  origin: "http://localhost:3000",
+  origin: "http://localhost:3030",
 });
 
 server.register(proxy, {
